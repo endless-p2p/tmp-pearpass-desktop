@@ -39,7 +39,18 @@
     "typescript": "~4.5.4"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@hyperswarm/dht": "^6.4.4",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.6",
+    "b4a": "^1.6.1",
+    "bip39": "^3.0.4",
+    "corestore": "^6.4.2",
     "electron-squirrel-startup": "^1.0.0",
+    "hyperbee": "^2.4.1",
+    "hypercore": "^10.7.0",
+    "hyperswarm": "^4.3.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

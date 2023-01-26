@@ -51,3 +51,35 @@ app.on('activate', () => {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and import them here.
+
+// import Hyperswarm from 'hyperswarm'
+import Corestore from 'corestore'
+import Hyperswarm from 'hyperswarm'
+// import Hyperbee from 'hyperbee'
+
+const store = new Corestore('./pearpass-storage')
+const swarm = new Hyperswarm()
+// goodbye(() => swarm.destroy())
+// swarm.on('connection', conn => store.replicate(conn))
+
+// const core = store.get({ name: 'pearpass-core' })
+// const bee = new Hyperbee(core, {
+//   keyEncoding: 'utf-8',
+//   valueEncoding: 'utf-8'
+// })
+
+// console.log('here');
+
+// (async () => {
+//   try {
+//     const text = await core.ready()
+//     console.log(text);
+//   } catch (e) {
+//     console.log(e);
+//     // deal with it bro
+//   }
+// })();
+
+// console.log('there');
+
+// const discovery = swarm.join(core.discoveryKey)
