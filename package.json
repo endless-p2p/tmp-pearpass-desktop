@@ -47,12 +47,15 @@
     "b4a": "^1.6.1",
     "bip39": "^3.0.4",
     "corestore": "^6.4.2",
+    "dht-rpc": "^6.6.2",
     "electron-squirrel-startup": "^1.0.0",
+    "fsctl": "^2.0.0",
     "hyperbee": "^2.4.1",
     "hypercore": "^10.7.0",
     "hyperswarm": "^4.3.6",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "udx-native": "^1.5.3"
   },
   "prettier": {
     "printWidth": 100,

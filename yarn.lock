@@ -2484,7 +2484,7 @@
   "resolved" "https://registry.npmjs.org/detect-node/-/detect-node-2.1.0.tgz"
   "version" "2.1.0"
 
-"dht-rpc@^6.6.1":
+"dht-rpc@^6.6.1", "dht-rpc@^6.6.2":
   "integrity" "sha512-tOG4cEwere/Vi5y8zJb1D55ApPFRMyHwgVLmjPeROQhYc0/L2ZYw/h4u3XqGYI0i+vweBN2ZEJ99vk9iBsxd3A=="
   "resolved" "https://registry.npmjs.org/dht-rpc/-/dht-rpc-6.6.2.tgz"
   "version" "6.6.2"
@@ -3402,6 +3402,14 @@
   "integrity" "sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw=="
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
+
+"fsctl@^2.0.0":
+  "integrity" "sha512-TbWp5Iz1HEcg76mWIoGScYiTFIM1iTe0cRN0hdwUfd4IgpvgWB0forIrmDXJHfBpV2aQ/qOjnh7RZ0azQKLlyw=="
+  "resolved" "https://registry.npmjs.org/fsctl/-/fsctl-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "napi-macros" "^2.0.0"
+    "node-gyp-build" "^4.2.3"
 
 "fsevents@~2.3.2":
   "integrity" "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
@@ -6691,7 +6699,7 @@
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.5.5.tgz"
   "version" "4.5.5"
 
-"udx-native@^1.2.0":
+"udx-native@^1.2.0", "udx-native@^1.5.3":
   "integrity" "sha512-xoMrEYR5Hahsvx04w06WSc52Sq0Xe2KQtbucyixhIlg/paWN+PXN1J3Ca6h/67K9fo1kB+j8C3fAik/Jv5Q1Mg=="
   "resolved" "https://registry.npmjs.org/udx-native/-/udx-native-1.5.3.tgz"
   "version" "1.5.3"

@@ -52,13 +52,27 @@ app.on('activate', () => {
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and import them here.
 
-// import Hyperswarm from 'hyperswarm'
 import Corestore from 'corestore'
+//import Hypercore from 'hypercore'
 import Hyperswarm from 'hyperswarm'
-// import Hyperbee from 'hyperbee'
+import Hyperbee from 'hyperbee'
 
-const store = new Corestore('./pearpass-storage')
+
+const userDataPath = app.getPath('userData')
+const storage = userDataPath + '/pearpass-storage'
+
+console.log(storage)
+
+// Monkey patch out the locking in hypercore storage
+// For some reason fsctl.lock doesn't seem to want to work
+const originalStorage = Hypercore.defaultStorage
+Hypercore.defaultStorage = (storage, opts = {}) => {
+  return originalStorage(storage, { ...opts, lock: -1 })
+}
+
+const store = new Corestore(storage)
 const swarm = new Hyperswarm()
+
 // goodbye(() => swarm.destroy())
 // swarm.on('connection', conn => store.replicate(conn))
 
