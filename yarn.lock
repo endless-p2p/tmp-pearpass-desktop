@@ -6436,10 +6436,9 @@ typescript@~4.5.4:
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.5.5.tgz"
   integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
 
-udx-native@^1.2.0:
+udx-native@^1.2.0, "udx-native@github:holepunchto/libudx.git#move-binding-js":
   version "1.5.3"
-  resolved "https://registry.npmjs.org/udx-native/-/udx-native-1.5.3.tgz"
-  integrity sha512-xoMrEYR5Hahsvx04w06WSc52Sq0Xe2KQtbucyixhIlg/paWN+PXN1J3Ca6h/67K9fo1kB+j8C3fAik/Jv5Q1Mg==
+  resolved "https://codeload.github.com/holepunchto/libudx/tar.gz/6cd68a8b1f6322331072a3af70f2945fee564bbd"
   dependencies:
     b4a "^1.5.0"
     events "^3.3.0"
