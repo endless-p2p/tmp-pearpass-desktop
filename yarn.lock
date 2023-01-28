@@ -2300,7 +2300,7 @@ detect-node@^2.0.4:
   resolved "https://registry.npmjs.org/detect-node/-/detect-node-2.1.0.tgz"
   integrity sha512-T0NIuQpnTvFDATNuHN5roPwSBG83rFsuO+MXXH9/3N1eFbn4wcPjttvjMLEPWJ0RGUYgQE7cGgS3tNxbqCGM7g==
 
-dht-rpc@^6.6.1, dht-rpc@^6.6.2:
+dht-rpc@^6.6.1:
   version "6.6.2"
   resolved "https://registry.yarnpkg.com/dht-rpc/-/dht-rpc-6.6.2.tgz#2a9bee77a94e97c1a203030ac34977e608bb3c12"
   integrity sha512-tOG4cEwere/Vi5y8zJb1D55ApPFRMyHwgVLmjPeROQhYc0/L2ZYw/h4u3XqGYI0i+vweBN2ZEJ99vk9iBsxd3A==
@@ -3194,7 +3194,7 @@ fs.realpath@^1.0.0:
 
 fsctl@^2.0.0:
   version "2.0.0"
-  resolved "https://registry.npmjs.org/fsctl/-/fsctl-2.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/fsctl/-/fsctl-2.0.0.tgz#6a25029aecd1a8bb287afbf9b3cc0029f173cede"
   integrity sha512-TbWp5Iz1HEcg76mWIoGScYiTFIM1iTe0cRN0hdwUfd4IgpvgWB0forIrmDXJHfBpV2aQ/qOjnh7RZ0azQKLlyw==
   dependencies:
     napi-macros "^2.0.0"
@@ -6436,7 +6436,7 @@ typescript@~4.5.4:
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.5.5.tgz"
   integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
 
-udx-native@^1.2.0, udx-native@^1.5.3:
+udx-native@^1.2.0:
   version "1.5.3"
   resolved "https://registry.npmjs.org/udx-native/-/udx-native-1.5.3.tgz"
   integrity sha512-xoMrEYR5Hahsvx04w06WSc52Sq0Xe2KQtbucyixhIlg/paWN+PXN1J3Ca6h/67K9fo1kB+j8C3fAik/Jv5Q1Mg==

@@ -27,7 +27,6 @@
     "@typescript-eslint/parser": "^5.48.2",
     "@vercel/webpack-asset-relocator-loader": "^1.7.3",
     "css-loader": "^6.7.3",
-    "dht-rpc": "^6.6.2",
     "electron": "22.0.3",
     "eslint": "^8.32.0",
     "eslint-plugin-import": "^2.27.5",
@@ -37,8 +36,7 @@
     "style-loader": "^3.3.1",
     "ts-loader": "^9.4.2",
     "ts-node": "^10.9.1",
-    "typescript": "~4.5.4",
-    "udx-native": "^1.5.3"
+    "typescript": "~4.5.4"
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
