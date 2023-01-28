@@ -61,14 +61,12 @@ import Hyperbee from 'hyperbee'
 const userDataPath = app.getPath('userData')
 const storage = userDataPath + '/pearpass-storage'
 
-console.log(storage)
-
 // Monkey patch out the locking in hypercore storage
 // For some reason fsctl.lock doesn't seem to want to work
-const originalStorage = Hypercore.defaultStorage
-Hypercore.defaultStorage = (storage, opts = {}) => {
-  return originalStorage(storage, { ...opts, lock: -1 })
-}
+// const originalStorage = Hypercore.defaultStorage
+// Hypercore.defaultStorage = (storage, opts = {}) => {
+//   return originalStorage(storage, { ...opts, lock: -1 })
+//}
 
 const store = new Corestore(storage)
 const swarm = new Hyperswarm()
