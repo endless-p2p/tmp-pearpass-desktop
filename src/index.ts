@@ -69,7 +69,7 @@ const storage = userDataPath + '/pearpass-storage'
 //}
 
 const store = new Corestore(storage)
-//const swarm = new Hyperswarm()
+const swarm = new Hyperswarm()
 
 // goodbye(() => swarm.destroy())
 // swarm.on('connection', conn => store.replicate(conn))
