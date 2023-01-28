@@ -53,9 +53,9 @@ app.on('activate', () => {
 // code. You can also put them in separate files and import them here.
 
 import Corestore from 'corestore'
-//import Hypercore from 'hypercore'
 import Hyperswarm from 'hyperswarm'
-import Hyperbee from 'hyperbee'
+//import Hypercore from 'hypercore'
+//import Hyperbee from 'hyperbee'
 
 
 const userDataPath = app.getPath('userData')
@@ -69,7 +69,7 @@ const storage = userDataPath + '/pearpass-storage'
 //}
 
 const store = new Corestore(storage)
-const swarm = new Hyperswarm()
+//const swarm = new Hyperswarm()
 
 // goodbye(() => swarm.destroy())
 // swarm.on('connection', conn => store.replicate(conn))
