@@ -55,7 +55,7 @@
     "react-dom": "^18.2.0"
   },
   "resolutions": {
-    "udx-native": "github:holepunchto/libudx.git#move-binding-js"
+    "udx-native": "github:holepunchto/libudx.git#master"
   },
   "prettier": {
     "printWidth": 100,
